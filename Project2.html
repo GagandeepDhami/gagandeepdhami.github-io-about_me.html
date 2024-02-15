@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Project 2: Personal Website -->
+<!-- Gagandeep Dhami -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('gg.JPG'); 
+            background-size: cover; 
+            background-position: center top; 
+            background-repeat: no-repeat;
+        }
+
+        h1{
+            font-size: 90px;
+            color: rgb(167, 246, 49);
+            text-align: center;
+        }
+
+        .main{
+            width: 500px;
+            position: absolute;
+            top: 40px;
+            right: 40px;
+        }
+
+        .flower1-img {
+            width: 150px;
+            position: absolute;
+            top: 40px;
+            left: 150px;
+        }
+
+        .flower2-img {
+            width: 80px;
+            position: absolute;
+            top: 10px;
+            left: 250px;
+        }
+
+        .flower3-img {
+            width: 80px;
+            position: absolute;
+            bottom: 150px;
+            right: 120px;
+        }
+
+        .button-bubble1, .button-bubble2, .button-bubble3 {
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(45, 40, 33);
+            border-radius: 30px;
+            box-shadow:rgb(45, 40, 33) 4px 4px 0 0;
+            color:rgb(45, 40, 33);
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 600px;
+            font-size: 18px;
+            padding: 5px 40px;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-bubble1:hover,.button-bubble2:hover, .button-bubble3:hover  {
+            background-color: rgb(236, 255, 151)
+        }
+
+        .button-bubble1:active, .button-bubble2:active, .button-bubble3:active {
+            box-shadow:rgb(45, 40, 33) 4px 4px 0 0;
+            transform: translate(2px, 2px);
+        }
+
+        .button-bubble1{
+            position: absolute;
+            bottom: 400px;
+            right: 200px;
+        }
+
+        .button-bubble2{
+            position: absolute;
+            bottom: 300px;
+            right: 193px;
+        }
+
+        .button-bubble3{
+            position: absolute;
+            bottom: 200px;
+            right: 195px;
+        }
+        @media (main-width: 768px){
+            .button-bubble1 {
+                min-width: 120px;
+                padding: 0 25px;
+            }
+        }
+    </style>s
+
+</head>
+<body>
+
+    <img class="main" src="/Users/gagandhami/Desktop/X Files/Spring 2024/Web Programming I/Project_2/bubble_letters.png" alt="bubbleletters.JPG"></img>
+
+    <img class="flower1-img" src="/Users/gagandhami/Desktop/X Files/Spring 2024/Web Programming I/Project_2/flowerbubble.gif" alt="video/gif"></img>
+    <img class="flower2-img" src="/Users/gagandhami/Desktop/X Files/Spring 2024/Web Programming I/Project_2/flowerbubble.gif" alt="video/gif"></img>
+    <img class="flower3-img" src="/Users/gagandhami/Desktop/X Files/Spring 2024/Web Programming I/Project_2/flowerbubble.gif" alt="video/gif"></img>
+
+
+    <a href="#" class="button-bubble1"> About Me</a>
+    <a href="#" class="button-bubble2">My Journey</a>
+    <a href="#" class="button-bubble3">My Future</a>
+    
+</body>
+</html>
